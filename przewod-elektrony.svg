@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 330" width="640" height="330" role="img" aria-labelledby="przewod-title">
+  <title id="przewod-title">Elektrony swobodne poruszające się w przewodniku między jonami dodatnimi, od bieguna ujemnego do dodatniego</title>
+  <defs>
+    <linearGradient id="pw-metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6e2c4"/>
+      <stop offset="0.5" stop-color="#fbefdc"/>
+      <stop offset="1" stop-color="#e9c99c"/>
+    </linearGradient>
+    <linearGradient id="pw-red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7d1414"/><stop offset="0.5" stop-color="#e5483f"/><stop offset="1" stop-color="#8c1a1a"/>
+    </linearGradient>
+    <linearGradient id="pw-blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10336a"/><stop offset="0.5" stop-color="#3a7bd5"/><stop offset="1" stop-color="#143a75"/>
+    </linearGradient>
+    <radialGradient id="pw-ion" cx="0.35" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#e4e4e4"/><stop offset="1" stop-color="#7a7a7a"/>
+    </radialGradient>
+    <radialGradient id="pw-el" cx="0.35" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#9cc4ff"/><stop offset="1" stop-color="#1d4fa3"/>
+    </radialGradient>
+    <filter id="pw-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2.5" flood-color="#000" flood-opacity="0.22"/>
+    </filter>
+    <marker id="pw-head" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1d4fa3"/>
+    </marker>
+    <marker id="pw-big-head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1d4fa3"/>
+    </marker>
+  </defs>
+
+  <!-- Opis przewodnika -->
+  <text x="320" y="70" font-family="'Noto Serif', 'DejaVu Serif', Georgia, serif" font-size="16" fill="#555" text-anchor="middle">przewodnik (metal)</text>
+
+  <!-- Przewodnik -->
+  <rect x="80" y="84" width="480" height="132" rx="10" fill="url(#pw-metal)" stroke="#b07d45" stroke-width="2" filter="url(#pw-shadow)"/>
+
+  <!-- Biegun ujemny i dodatni -->
+  <rect x="40" y="104" width="44" height="92" rx="5" fill="url(#pw-blue)" filter="url(#pw-shadow)"/>
+  <text x="62" y="159" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" text-anchor="middle">−</text>
+  <rect x="556" y="104" width="44" height="92" rx="5" fill="url(#pw-red)" filter="url(#pw-shadow)"/>
+  <text x="578" y="160" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" text-anchor="middle">+</text>
+
+  <!-- Jony dodatnie -->
+  <g>
+    <circle cx="130" cy="112" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="130" y="116.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="192" cy="112" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="192" y="116.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="254" cy="112" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="254" y="116.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="316" cy="112" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="316" y="116.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="378" cy="112" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="378" y="116.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="440" cy="112" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="440" y="116.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="502" cy="112" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="502" y="116.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="161" cy="150" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="161" y="154.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="223" cy="150" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="223" y="154.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="285" cy="150" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="285" y="154.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="347" cy="150" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="347" y="154.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="409" cy="150" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="409" y="154.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="471" cy="150" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="471" y="154.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="533" cy="150" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="533" y="154.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="130" cy="188" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="130" y="192.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="192" cy="188" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="192" y="192.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="254" cy="188" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="254" y="192.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="316" cy="188" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="316" y="192.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="378" cy="188" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="378" y="192.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="440" cy="188" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="440" y="192.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <circle cx="502" cy="188" r="9" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="502" y="192.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+  </g>
+
+  <!-- Tor wyróżnionego elektronu (zderzenia z jonami) -->
+  <polyline points="96,131 176.5,131 207.5,169 238.5,169 269.5,131 300.5,131 331.5,169 362.5,169 393.5,131 424.5,131 455.5,169 486.5,169 517.5,131 546,131" fill="none" stroke="#1d4fa3" stroke-width="1.6" stroke-dasharray="4 3" stroke-linejoin="round" marker-end="url(#pw-head)"/>
+
+  <!-- Elektrony swobodne -->
+  <g>
+    <circle cx="96" cy="131" r="6.5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.8"/>
+    <circle cx="104" cy="97" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="165" cy="98" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="228" cy="96" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="292" cy="98" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="350" cy="97" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="414" cy="96" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="474" cy="98" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="534" cy="97" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="100" cy="203" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="160" cy="202" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="222" cy="204" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="285" cy="202" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="348" cy="204" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="410" cy="202" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="472" cy="203" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="533" cy="202" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="130" cy="169" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="290" cy="169" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="410" cy="169" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="360" cy="131" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <circle cx="238" cy="131" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+  </g>
+
+  <!-- Kierunek ruchu elektronów -->
+  <line x1="200" y1="246" x2="440" y2="246" stroke="#1d4fa3" stroke-width="5" marker-end="url(#pw-big-head)"/>
+  <text x="320" y="274" font-family="'Noto Serif', 'DejaVu Serif', Georgia, serif" font-size="16" fill="#1d4fa3" text-anchor="middle">kierunek ruchu elektronów</text>
+
+  <!-- Legenda -->
+  <g font-family="'Noto Serif', 'DejaVu Serif', Georgia, serif" font-size="14" fill="#333">
+    <circle cx="150" cy="308" r="10" fill="url(#pw-ion)" stroke="#666" stroke-width="0.8"/>
+    <text x="150" y="312.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">+</text>
+    <text x="168" y="313">jon dodatni</text>
+    <circle cx="300" cy="308" r="5" fill="url(#pw-el)" stroke="#123a7a" stroke-width="0.6"/>
+    <text x="313" y="313">elektron swobodny</text>
+    <line x1="460" y1="308" x2="490" y2="308" stroke="#1d4fa3" stroke-width="1.6" stroke-dasharray="4 3"/>
+    <text x="498" y="313">tor elektronu</text>
+  </g>
+</svg>

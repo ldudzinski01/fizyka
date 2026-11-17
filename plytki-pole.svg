@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400" role="img" aria-labelledby="plytki-title">
+  <title id="plytki-title">Ładunek próbny q przenoszony przez siłę pola elektrostatycznego z punktu A do punktu B między dwiema naelektryzowanymi płytkami</title>
+  <defs>
+    <linearGradient id="pp-red" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7d1414"/>
+      <stop offset="0.45" stop-color="#e5483f"/>
+      <stop offset="0.6" stop-color="#f07a6f"/>
+      <stop offset="1" stop-color="#8c1a1a"/>
+    </linearGradient>
+    <linearGradient id="pp-blue" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#10336a"/>
+      <stop offset="0.45" stop-color="#3a7bd5"/>
+      <stop offset="0.6" stop-color="#6fa2e8"/>
+      <stop offset="1" stop-color="#143a75"/>
+    </linearGradient>
+    <radialGradient id="pp-charge" cx="0.35" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#ffd2c9"/>
+      <stop offset="0.5" stop-color="#e5483f"/>
+      <stop offset="1" stop-color="#8c1a1a"/>
+    </radialGradient>
+    <filter id="pp-shadow" x="-30%" y="-10%" width="160%" height="120%">
+      <feDropShadow dx="3" dy="4" stdDeviation="3" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+    <marker id="pp-force-head" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1b7a3a"/>
+    </marker>
+  </defs>
+
+  <!-- Linie sił pola: od płytki dodatniej (+) do ujemnej (−) -->
+  <g stroke="#555" stroke-width="1.6" fill="#555">
+    <line x1="135" y1="80" x2="505" y2="80"/>
+    <line x1="135" y1="135" x2="505" y2="135"/>
+    <line x1="135" y1="265" x2="505" y2="265"/>
+    <line x1="135" y1="320" x2="505" y2="320"/>
+    <path d="M314,74 L328,80 L314,86 z" stroke="none"/>
+    <path d="M314,129 L328,135 L314,141 z" stroke="none"/>
+    <path d="M314,259 L328,265 L314,271 z" stroke="none"/>
+    <path d="M314,314 L328,320 L314,326 z" stroke="none"/>
+  </g>
+
+  <!-- Płytka dodatnia (czerwona) -->
+  <rect x="110" y="50" width="25" height="300" rx="3" fill="url(#pp-red)" filter="url(#pp-shadow)"/>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">
+    <text x="122.5" y="77">+</text>
+    <text x="122.5" y="114">+</text>
+    <text x="122.5" y="151">+</text>
+    <text x="122.5" y="188">+</text>
+    <text x="122.5" y="225">+</text>
+    <text x="122.5" y="262">+</text>
+    <text x="122.5" y="299">+</text>
+    <text x="122.5" y="336">+</text>
+  </g>
+
+  <!-- Płytka ujemna (niebieska) -->
+  <rect x="505" y="50" width="25" height="300" rx="3" fill="url(#pp-blue)" filter="url(#pp-shadow)"/>
+  <g fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+    <text x="517.5" y="77">−</text>
+    <text x="517.5" y="114">−</text>
+    <text x="517.5" y="151">−</text>
+    <text x="517.5" y="188">−</text>
+    <text x="517.5" y="225">−</text>
+    <text x="517.5" y="262">−</text>
+    <text x="517.5" y="299">−</text>
+    <text x="517.5" y="336">−</text>
+  </g>
+
+  <!-- Droga ładunku od A do B -->
+  <line x1="198" y1="185" x2="451" y2="185" stroke="#999" stroke-width="1.4" stroke-dasharray="5 4"/>
+  <circle cx="455" cy="185" r="4.5" fill="#222"/>
+
+  <!-- Siła pola działająca na ładunek -->
+  <line x1="199" y1="185" x2="282" y2="185" stroke="#1b7a3a" stroke-width="3.5" marker-end="url(#pp-force-head)"/>
+
+  <!-- Ładunek próbny q+ w punkcie A -->
+  <circle cx="185" cy="185" r="13" fill="url(#pp-charge)" stroke="#7d1414" stroke-width="1" filter="url(#pp-shadow)"/>
+  <text x="185" y="191.5" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="middle">+</text>
+
+  <!-- Klamra Δs między A i B -->
+  <path d="M185,203 Q185,212 195,212 L310,212 Q320,212 320,222 Q320,212 330,212 L445,212 Q455,212 455,203"
+        fill="none" stroke="#333" stroke-width="1.6" stroke-linejoin="round"/>
+
+  <!-- Opisy -->
+  <g font-family="'Noto Serif', 'DejaVu Serif', Georgia, serif" font-style="italic" fill="#222">
+    <text x="166" y="191" font-size="20" text-anchor="end">A</text>
+    <text x="455" y="168" font-size="20" text-anchor="middle">B</text>
+    <text x="185" y="162" font-size="20" text-anchor="middle">q<tspan dy="-8" font-size="13" font-style="normal">+</tspan></text>
+    <text x="242" y="172" font-size="20" text-anchor="middle" fill="#1b7a3a">F</text>
+    <text x="320" y="244" font-size="20" text-anchor="middle"><tspan font-style="normal">Δ</tspan>s</text>
+  </g>
+  <!-- Strzałka wektora nad F -->
+  <path d="M235,152 L250,152 M246,149 L250,152 L246,155" fill="none" stroke="#1b7a3a" stroke-width="1.4"/>
+</svg>
